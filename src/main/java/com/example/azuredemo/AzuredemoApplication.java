@@ -15,6 +15,6 @@ public class AzuredemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello, Azure!";
+		return "Hello, Azure! Welcome to Spring Boot on Azure!";
 	}
 }
